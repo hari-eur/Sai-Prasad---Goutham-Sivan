@@ -1,0 +1,46 @@
+Step 1: Create a new file using touch
+
+filename.c
+
+
+Step 2: Open and Edit the file using vi
+
+filename.c
+
+
+Step 3: Enter the code by pressing 'I'
+
+button or press insert key in keyboard
+
+
+Step 4: Then press Escape key to
+
+come out of insert mode and press
+
+Shift + z two times to save the entered code in the file
+
+
+Step 5: Then compile the file using
+
+the command gcc filename.c -o
+
+output_filename
+
+
+Step 6: Run the file using ./
+
+output_filename
+
+
+Step 7: Then debug the output file using gdb./output_filename
+
+
+Step 8: Then debug in gdb using
+
+(gdb) r command
+
+
+Step 9: In the output it shows the address line at which there is a segmentation fault.
+
+
+Step 10: Then we can run the file by changing the error and get the required ouptut
